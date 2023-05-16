@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nadvar-brand{
+    font-size: 4rem;
+    color: black;
+    font-family: 'Lobster', cursive;
+}
+.nadvar-brand:hover{
+    color: black;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+    
+}
+.nav-link:hover{
+    color: rgb(248,26,92);;
+    font-family: 'Rubik', sans-serif;
+    font-size: 3rem;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    border: 2px solid rgb(248,26,92);
+}
+.btn0{
+    height: 40px;
+    width: 80px;
+    outline: none;
+    border: none;
+    background: rgb(248,26,92);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+.main{   
+    /*
+     background: url("https://img.freepik.com/fotos-premium/platos-variados-cocina-peruana-carne-res-pimientos-lomo-saltado-ceviche-peruano-pescado-marisco-pollo-asado-papas-fritas-salsa-dip-mesa-piedra-rustica-arriba-espacio-copia_92134-2423.jpg?w=1380") no-repeat;
+    */
+    background: url("https://img.freepik.com/foto-gratis/marco-comida-vista-superior-espacio-copia_23-2148708272.jpg?w=1380&t=st=1684189771~exp=1684190371~hmac=c458baa8643574d0ca8359dee71ef32596ea022a1b74cee8a4084777e5f068ce") no-repeat;
+    background-size: cover;
+    height: 90vh;
+
+}
+.main h1{
+    color: white;
+    font-size: 5rem;
+    font-weight: 700;
+    margin-top: 220px; /* mueve el texto hacia abajo */
+}
+
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color:rgb(248,26,92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.btn1:hover{
+    background-color:rgb(204, 41, 19);
+}
+
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+}
+
+h1{
+    font-weight: 700;
+}
+
+.card-body img {
+    width: 100%;
+    height: 200px; /* Elige la altura que desees */
+    object-fit: cover;
+  }
+
+.img-fluid {
+    width: 100%;
+    height: 200px; /* Elige la altura que desees */
+    object-fit: cover;
+}
+
+.news{
+    background-color: black;
+    color: white;
+}
+.btn2{
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+}
+.news input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: black;
+    color: white;
+    font-weight: 600;
+}
+
+.news p{
+    margin: 0;
+}
+
+.news i:hover{
+    font-size: 2.5 rem;
+    cursor: pointer;
+    padding-right: 5px;
+    background: red;
+}
